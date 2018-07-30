@@ -1,10 +1,13 @@
-import '../styles/index.scss'
+const URL = 'https://jsonplaceholder.typicode.com/users'
 
-import { sum, sub  } from './math'
+let p = document.querySelector('#output')
 
-console.log('Hello Webpack 4')
+let any = new XMLHttpRequest()
 
-console.log(sum(10, 20))
-console.log(sub(10, 20))
+let res = any.onreadystatechange = () => {
 
-alert('Hello Catians')
+    p.innerHTML = 
+
+}
+
+
